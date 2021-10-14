@@ -17,11 +17,6 @@ class ViewController: UIViewController {
 //    @IBOutlet var valueLabel: UILabel!
 //    valueLabel.text = "Welcome!"
 //
-    //
-    // bing bong
     
-    /////
-    ////////
-    //////
 }
 
