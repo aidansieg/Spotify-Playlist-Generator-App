@@ -7,28 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7141FBFB2715D53700421980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141FBFA2715D53700421980 /* AppDelegate.swift */; };
-		7141FBFD2715D53700421980 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141FBFC2715D53700421980 /* SceneDelegate.swift */; };
-		7141FBFF2715D53700421980 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141FBFE2715D53700421980 /* ViewController.swift */; };
-		7141FC022715D53700421980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7141FC002715D53700421980 /* Main.storyboard */; };
-		7141FC042715D53A00421980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7141FC032715D53A00421980 /* Assets.xcassets */; };
-		7141FC072715D53A00421980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7141FC052715D53A00421980 /* LaunchScreen.storyboard */; };
-		717B265F2718887700F14FCA /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717B265E2718886300F14FCA /* SpotifyiOS.framework */; };
-		717B266327188A7A00F14FCA /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717B266227188A7A00F14FCA /* LoginButton.swift */; };
+		719CCB40271E152400F3522D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CCB38271E092E00F3522D /* ViewController.swift */; };
+		719CCB41271E152800F3522D /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CCB3D271E092E00F3522D /* ConnectButton.swift */; };
+		719CCB42271E152C00F3522D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CCB3E271E092E00F3522D /* AppDelegate.swift */; };
+		719CCB43271E156600F3522D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719CCB39271E092E00F3522D /* Assets.xcassets */; };
+		719CCB44271E156D00F3522D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719CCB3B271E092E00F3522D /* LaunchScreen.storyboard */; };
+		71A38D8F271F485F008CDD6B /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A38D8E271F485F008CDD6B /* SpotifyiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7141FBF72715D53700421980 /* Spotify Playlist Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spotify Playlist Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7141FBFA2715D53700421980 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7141FBFC2715D53700421980 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7141FBFE2715D53700421980 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7141FC012715D53700421980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7141FC032715D53A00421980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7141FC062715D53A00421980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7141FC082715D53A00421980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		717B265E2718886300F14FCA /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
-		717B266227188A7A00F14FCA /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
-		717B2669271899CF00F14FCA /* SpotifyPlaylistGenerator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotifyPlaylistGenerator-Bridging-Header.h"; sourceTree = "<group>"; };
+		719CCB38271E092E00F3522D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		719CCB39271E092E00F3522D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		719CCB3A271E092E00F3522D /* SpotifyPlaylistGenerator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotifyPlaylistGenerator-Bridging-Header.h"; sourceTree = "<group>"; };
+		719CCB3C271E092E00F3522D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		719CCB3D271E092E00F3522D /* ConnectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButton.swift; sourceTree = "<group>"; };
+		719CCB3E271E092E00F3522D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		719CCB3F271E092E00F3522D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A38D8E271F485F008CDD6B /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = Frameworks/SpotifyiOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717B265F2718887700F14FCA /* SpotifyiOS.framework in Frameworks */,
+				71A38D8F271F485F008CDD6B /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,9 +42,9 @@
 		7141FBEE2715D53700421980 = {
 			isa = PBXGroup;
 			children = (
-				717B265D2718885800F14FCA /* Framework */,
-				7141FBF92715D53700421980 /* Spotify Playlist Generator */,
+				719CCB37271E092E00F3522D /* Spotify-Playlist-Generator */,
 				7141FBF82715D53700421980 /* Products */,
+				71A38D8D271F485F008CDD6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,28 +56,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7141FBF92715D53700421980 /* Spotify Playlist Generator */ = {
+		719CCB37271E092E00F3522D /* Spotify-Playlist-Generator */ = {
 			isa = PBXGroup;
 			children = (
-				7141FBFA2715D53700421980 /* AppDelegate.swift */,
-				7141FBFC2715D53700421980 /* SceneDelegate.swift */,
-				7141FBFE2715D53700421980 /* ViewController.swift */,
-				717B266227188A7A00F14FCA /* LoginButton.swift */,
-				7141FC082715D53A00421980 /* Info.plist */,
-				717B2669271899CF00F14FCA /* SpotifyPlaylistGenerator-Bridging-Header.h */,
-				7141FC002715D53700421980 /* Main.storyboard */,
-				7141FC032715D53A00421980 /* Assets.xcassets */,
-				7141FC052715D53A00421980 /* LaunchScreen.storyboard */,
+				719CCB38271E092E00F3522D /* ViewController.swift */,
+				719CCB39271E092E00F3522D /* Assets.xcassets */,
+				719CCB3A271E092E00F3522D /* SpotifyPlaylistGenerator-Bridging-Header.h */,
+				719CCB3B271E092E00F3522D /* LaunchScreen.storyboard */,
+				719CCB3D271E092E00F3522D /* ConnectButton.swift */,
+				719CCB3E271E092E00F3522D /* AppDelegate.swift */,
+				719CCB3F271E092E00F3522D /* Info.plist */,
 			);
-			path = "Spotify Playlist Generator";
+			path = "Spotify-Playlist-Generator";
 			sourceTree = "<group>";
 		};
-		717B265D2718885800F14FCA /* Framework */ = {
+		71A38D8D271F485F008CDD6B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				717B265E2718886300F14FCA /* SpotifyiOS.framework */,
+				71A38D8E271F485F008CDD6B /* SpotifyiOS.framework */,
 			);
-			path = Framework;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +135,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7141FC072715D53A00421980 /* LaunchScreen.storyboard in Resources */,
-				7141FC042715D53A00421980 /* Assets.xcassets in Resources */,
-				7141FC022715D53700421980 /* Main.storyboard in Resources */,
+				719CCB44271E156D00F3522D /* LaunchScreen.storyboard in Resources */,
+				719CCB43271E156600F3522D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,28 +147,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717B266327188A7A00F14FCA /* LoginButton.swift in Sources */,
-				7141FBFF2715D53700421980 /* ViewController.swift in Sources */,
-				7141FBFB2715D53700421980 /* AppDelegate.swift in Sources */,
-				7141FBFD2715D53700421980 /* SceneDelegate.swift in Sources */,
+				719CCB42271E152C00F3522D /* AppDelegate.swift in Sources */,
+				719CCB41271E152800F3522D /* ConnectButton.swift in Sources */,
+				719CCB40271E152400F3522D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7141FC002715D53700421980 /* Main.storyboard */ = {
+		719CCB3B271E092E00F3522D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7141FC012715D53700421980 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7141FC052715D53A00421980 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7141FC062715D53A00421980 /* Base */,
+				719CCB3C271E092E00F3522D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -240,7 +224,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "Framework/SpotifyPlaylistGenerator-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "SPTLoginSampleAppSwift/SpotifyPlaylistGenerator-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -295,7 +279,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OBJC_BRIDGING_HEADER = "Framework/SpotifyPlaylistGenerator-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "SPTLoginSampleAppSwift/SpotifyPlaylistGenerator-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -307,22 +291,30 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C7X9RKK64W;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)/Frameworks",
 				);
-				INFOPLIST_FILE = "Spotify Playlist Generator/Info.plist";
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Spotify-Playlist-Generator";
+				INFOPLIST_FILE = "Spotify-Playlist-Generator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework/SpotifyiOS.framework",
+				);
+				OTHER_CFLAGS = "-ISpotifyiOS";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.asiegel2.Spotify-Playlist-Generator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Spotify Playlist Generator/Spotify Playlist Generator/SpotifyPlaylistGenerator-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Spotify-Playlist-Generator/SpotifyPlaylistGenerator-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "SpotifyPlaylistGenerator-Swift.h";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
@@ -336,22 +328,30 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C7X9RKK64W;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)/Frameworks",
 				);
-				INFOPLIST_FILE = "Spotify Playlist Generator/Info.plist";
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Spotify-Playlist-Generator";
+				INFOPLIST_FILE = "Spotify-Playlist-Generator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework/SpotifyiOS.framework",
+				);
+				OTHER_CFLAGS = "-ISpotifyiOS";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.asiegel2.Spotify-Playlist-Generator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Spotify Playlist Generator/Spotify Playlist Generator/SpotifyPlaylistGenerator-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Spotify-Playlist-Generator/SpotifyPlaylistGenerator-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "SpotifyPlaylistGenerator-Swift.h";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
