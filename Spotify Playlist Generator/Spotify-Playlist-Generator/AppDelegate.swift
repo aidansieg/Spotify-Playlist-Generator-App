@@ -1,7 +1,7 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, SPTSessionManagerDelegate {
 
     var window: UIWindow?
     lazy var rootViewController = ViewController()
@@ -29,5 +29,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             rootViewController.appRemote.connect()
         }
     }
+    
+    func sessionManager(manager: SPTSessionManager, didInitiate session: SPTSession) {
+      print("success", session)
+    }
+    
+    func sessionManager(manager: SPTSessionManager, didFailWith error: Error) {
+      print("fail", error)
+    }
+    
+    func sessionManager(manager: SPTSessionManager, didRenew session: SPTSession) {
+      print("renewed", session)
+    }
+    
+    let SpotifyClientID = "605bd946887e45a9ac5e2f29683d02fd"
+    let SpotifyRedirectURL = URL(string: "SpotifyPlaylistGenerator://")!
+
+    lazy var configuration = SPTConfiguration(
+      clientID: SpotifyClientID,
+      redirectURL: SpotifyRedirectURL
+    )
 }
 

@@ -2,14 +2,14 @@ import UIKit
 
 class ViewController: UIViewController, SPTSessionManagerDelegate, SPTAppRemoteDelegate, SPTAppRemotePlayerStateDelegate {
 
-    private let SpotifyClientID = "044b2c45e77f45aca8da89e338849b6a"
-    private let SpotifyRedirectURI = URL(string: "spotify-login-sdk-test-app://spotify-login-callback")!
+    private let SpotifyClientID = "605bd946887e45a9ac5e2f29683d02fd"
+    private let SpotifyRedirectURI = URL(string: "SpotifyPlaylistGenerator://")!
 
     lazy var configuration: SPTConfiguration = {
         let configuration = SPTConfiguration(clientID: SpotifyClientID, redirectURL: SpotifyRedirectURI)
         // Set the playURI to a non-nil value so that Spotify plays music after authenticating and App Remote can connect
         // otherwise another app switch will be required
-        configuration.playURI = ""
+        configuration.playURI = "1"
 
         // Set these url's to your backend which contains the secret to exchange for an access token
         // You can use the provided ruby script spotify_token_swap.rb for testing purposes
@@ -35,12 +35,12 @@ class ViewController: UIViewController, SPTSessionManagerDelegate, SPTAppRemoteD
 
     private lazy var connectLabel: UILabel = {
         let label = UILabel()
-        label.text = "Connect your Spotify account"
+        label.text = "Login to your Spotify account"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
 
-    private lazy var connectButton = ConnectButton(title: "CONNECT")
+    private lazy var connectButton = ConnectButton(title: "LOGIN")
     private lazy var disconnectButton = ConnectButton(title: "DISCONNECT")
 
     private lazy var pauseAndPlayButton: UIButton = {
@@ -184,7 +184,7 @@ class ViewController: UIViewController, SPTSessionManagerDelegate, SPTAppRemoteD
          For more information, see https://developer.spotify.com/web-api/using-scopes/.
          */
         let scope: SPTScope = [.appRemoteControl, .playlistReadPrivate]
-
+        
         if #available(iOS 11, *) {
             // Use this on iOS 11 and above to take advantage of SFAuthenticationSession
             sessionManager.initiateSession(with: scope, options: .clientOnly)
