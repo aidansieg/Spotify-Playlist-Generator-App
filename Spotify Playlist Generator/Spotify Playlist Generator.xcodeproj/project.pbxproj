@@ -13,6 +13,7 @@
 		719CCB43271E156600F3522D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719CCB39271E092E00F3522D /* Assets.xcassets */; };
 		719CCB44271E156D00F3522D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719CCB3B271E092E00F3522D /* LaunchScreen.storyboard */; };
 		71A38D8F271F485F008CDD6B /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A38D8E271F485F008CDD6B /* SpotifyiOS.framework */; };
+		71A38D91271F615F008CDD6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A38D90271F615F008CDD6B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		719CCB3E271E092E00F3522D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		719CCB3F271E092E00F3522D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71A38D8E271F485F008CDD6B /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = Frameworks/SpotifyiOS.framework; sourceTree = "<group>"; };
+		71A38D90271F615F008CDD6B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				719CCB3D271E092E00F3522D /* ConnectButton.swift */,
 				719CCB3E271E092E00F3522D /* AppDelegate.swift */,
 				719CCB3F271E092E00F3522D /* Info.plist */,
+				71A38D90271F615F008CDD6B /* Main.storyboard */,
 			);
 			path = "Spotify-Playlist-Generator";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A38D91271F615F008CDD6B /* Main.storyboard in Resources */,
 				719CCB44271E156D00F3522D /* LaunchScreen.storyboard in Resources */,
 				719CCB43271E156600F3522D /* Assets.xcassets in Resources */,
 			);
