@@ -3,6 +3,7 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, SPTSessionManagerDelegate {
 
+    /////
     var window: UIWindow?
     lazy var rootViewController = ViewController()
 
