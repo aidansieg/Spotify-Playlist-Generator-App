@@ -3,7 +3,7 @@ import UIKit
 class ViewController: UIViewController, SPTSessionManagerDelegate, SPTAppRemoteDelegate, SPTAppRemotePlayerStateDelegate {
 
     private let SpotifyClientID = "605bd946887e45a9ac5e2f29683d02fd"
-    private let SpotifyRedirectURI = URL(string: "SpotifyPlaylistGenerator://")!
+    private let SpotifyRedirectURI = URL(string: "Spotify-Playlist-Generator://")!
 
     lazy var configuration: SPTConfiguration = {
         let configuration = SPTConfiguration(clientID: SpotifyClientID, redirectURL: SpotifyRedirectURI)
@@ -35,13 +35,13 @@ class ViewController: UIViewController, SPTSessionManagerDelegate, SPTAppRemoteD
 
     private lazy var connectLabel: UILabel = {
         let label = UILabel()
-        label.text = "Login to your Spotify account"
+        label.text = "Login to Spotify"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
 
-    private lazy var connectButton = ConnectButton(title: "LOGIN")
-    private lazy var disconnectButton = ConnectButton(title: "DISCONNECT")
+    private lazy var connectButton = ConnectButton(title: "Login")
+    private lazy var disconnectButton = ConnectButton(title: "Disconnect")
 
     private lazy var pauseAndPlayButton: UIButton = {
         let button = UIButton()
@@ -66,7 +66,7 @@ class ViewController: UIViewController, SPTSessionManagerDelegate, SPTAppRemoteD
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = UIColor.black
 
         view.addSubview(connectLabel)
         view.addSubview(connectButton)
@@ -208,6 +208,7 @@ class ViewController: UIViewController, SPTSessionManagerDelegate, SPTAppRemoteD
     func sessionManager(manager: SPTSessionManager, didInitiate session: SPTSession) {
         appRemote.connectionParameters.accessToken = session.accessToken
         appRemote.connect()
+        
     }
 
     // MARK: - SPTAppRemoteDelegate
